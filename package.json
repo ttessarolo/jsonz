@@ -1,0 +1,34 @@
+{
+  "name": "jsonz",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Compress Basic JSON Objects",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git-cz",
+    "version": "standard-version",
+    "push": "git push --follow-tags",
+    "release": "npm run commit && npm run version && npm run push && npm publish"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttessarolo/jsonz.git"
+  },
+  "keywords": [],
+  "author": "Tommaso Tessarolo <ttessarolo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttessarolo/jsonz/issues"
+  },
+  "homepage": "https://github.com/ttessarolo/jsonz#readme"
+}
