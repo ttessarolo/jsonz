@@ -14,7 +14,7 @@ npm install jsonz
 ## Example
 
 ```javascript
-import { compress, decompress } from "jsonz";
+import { compress, compressSorted, decompress } from "jsonz";
 
 // Pure JSON object
 const obj = {
@@ -46,5 +46,24 @@ console.log(decompressed);
 //   catalog: "objects",
 //   eventId: "view",
 //   subId: "YPZ-AtIlD6UuC-0HbhHyF",
+// }
+
+// Compress Sorted
+const compressedOrdered = compressSorted(obj);
+const decompressedOrdered = decompress(compressedOrdered);
+
+console.log(decompressed);
+
+// --> prints
+// {
+//   blockId: "IN7AAWsmQIXjcp5x2yX3F",
+//   catalog: "objects",
+//   contentIds: ["J100000000462", "J100000001272"],
+//   eventId: "view",
+//   internalId: "VAhK7yqm4c575JDZ-QcC0",
+//   reference: "movies",
+//   subId: "YPZ-AtIlD6UuC-0HbhHyF",
+//   tenant: "japan",
+//   ts: 1669997354214
 // }
 ```

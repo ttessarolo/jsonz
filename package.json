@@ -1,5 +1,5 @@
 {
-  "name": "jsonz",
+  "name": "@ttessarolo/jsonz",
   "version": "1.0.1",
   "type": "module",
   "description": "Compress Basic JSON Objects",
@@ -24,7 +24,13 @@
     "type": "git",
     "url": "git+https://github.com/ttessarolo/jsonz.git"
   },
-  "keywords": [],
+  "keywords": [
+    "json",
+    "jsonz",
+    "compress",
+    "zip",
+    "serialize"
+  ],
   "author": "Tommaso Tessarolo <ttessarolo@gmail.com>",
   "license": "ISC",
   "bugs": {
