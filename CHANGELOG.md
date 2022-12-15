@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://bitbucket.org/ttessarolo/jsonz/branches/compare/v1.2.2%0Dv1.2.3) (2022-12-15)
+
+
+### Docs
+
+* fixe install specs in docs ([0a84749](https://github.com/ttessarolo/jsonz/commits/0a847498eac8f4dd9cd0797f1d044843c393f470))
+
 ### [1.2.2](https://bitbucket.org/ttessarolo/jsonz/branches/compare/v1.2.1%0Dv1.2.2) (2022-12-15)
 
 
