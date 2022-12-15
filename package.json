@@ -1,6 +1,6 @@
 {
   "name": "@ttessarolo/jsonz",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "Compress Basic JSON Objects",
   "main": "index.js",

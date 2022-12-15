@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://bitbucket.org/ttessarolo/jsonz/branches/compare/v1.2.0%0Dv1.2.1) (2022-12-15)
+
+
+### Bug Fixes
+
+* let vs var in for loop ([32a24bd](https://github.com/ttessarolo/jsonz/commits/32a24bd1c93b23245b7d3dc46f1fff523bfe7088))
+
 ## [1.2.0](https://bitbucket.org/ttessarolo/jsonz/branches/compare/v1.1.0%0Dv1.2.0) (2022-12-15)
 
 
