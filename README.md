@@ -16,7 +16,7 @@ Zero dependencies JSON objects compression library
 ## Installation
 
 ```
-npm install jsonz
+npm install @ttessarolo/jsonz
 ```
 
 ## Example
