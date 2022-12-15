@@ -52,7 +52,7 @@ console.log(decompressed);
 const compressedOrdered = compressSorted(obj);
 const decompressedOrdered = decompress(compressedOrdered);
 
-console.log(decompressed);
+console.log(decompressedOrdered);
 
 // --> prints
 // {
