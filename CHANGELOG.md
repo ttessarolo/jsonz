@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://bitbucket.org/ttessarolo/jsonz/branches/compare/v1.1.0%0Dv1.2.0) (2022-12-15)
+
+
+### Features
+
+* full sort nexted objects and arrays ([32df978](https://github.com/ttessarolo/jsonz/commits/32df978788521feaa25ba64c6074f2021814df95))
+
 ## [1.1.0](https://bitbucket.org/ttessarolo/jsonz/branches/compare/v1.0.1%0Dv1.1.0) (2022-12-14)
 
 
