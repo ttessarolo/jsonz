@@ -8,7 +8,7 @@ function sortKeys(object) {
   const sortedObj = {};
   const keys = Object.keys(object).sort();
 
-  for (var index in keys) {
+  for (let index in keys) {
     const key = keys[index];
     if (typeof object[key] === "object") {
       sortedObj[key] = sortKeys(object[key]);
