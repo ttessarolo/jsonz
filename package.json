@@ -8,9 +8,11 @@
     "commit": "git add . && git-cz",
     "version": "standard-version",
     "push": "git push --follow-tags",
-    "release": "npm run commit && npm run version && npm run push && npm publish"
+    "release": "npm run test && npm run commit && npm run version && npm run push && npm publish",
+    "test": "ava"
   },
   "devDependencies": {
+    "ava": "^5.1.0",
     "commitizen": "^4.2.2",
     "cz-conventional-changelog": "^3.3.0",
     "standard-version": "^9.0.0"
@@ -29,7 +31,9 @@
     "jsonz",
     "compress",
     "zip",
-    "serialize"
+    "serialize",
+    "recursive",
+    "nodejs"
   ],
   "author": "Tommaso Tessarolo <ttessarolo@gmail.com>",
   "license": "ISC",
